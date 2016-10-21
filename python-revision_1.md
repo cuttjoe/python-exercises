@@ -25,3 +25,30 @@ get you and why?
   *******
  *********
 ```
+ex1: 
+
+a=6
+b=7
+c=a*a+b*b
+print (c)
+d=(c ** 0.5)
+print (d)
+
+
+
+ex2:
+
+a=17
+b=5
+c=a//b
+print(c)
+
+
+ex3:
+
+x=75%7
+print(x)
+
+
+
+
