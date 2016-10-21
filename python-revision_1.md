@@ -25,3 +25,22 @@ get you and why?
   *******
  *********
 ```
+
+1)
+a=6
+b=7
+c=(a*a+b*b)**(1/2)
+print(c)
+print("_____")
+print(17//5)
+print("_____")
+for i in range(0,75):
+	if i%7==0:
+		print(i)
+print("_____")
+seven=0
+for i in range(0,10):
+	seven=seven+7
+	print(seven)
+
+2) WILL BE DONE LATER TODAY!
