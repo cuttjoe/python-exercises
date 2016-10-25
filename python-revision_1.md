@@ -56,7 +56,21 @@ for i in range(a):
 ```
 	
 5. Ask user for a name and print name one letter at a time (separate lines)  
+```python
+a=input("give me a name")
+b=list(a)
+for i in range(len(a)):
+	print(b[i])
+```
 	Now print the letters diagonally across the page one letter at a time (separate lines)
+```python
+a=input("give me a name")
+b=list(a)
+for i in range(len(a)):
+	print((" ")*i,b[i])
+```
+
+
 6. Figure out how to print this pattern below with and without using a loop (its just a formatting trick)  
 ```
      *
