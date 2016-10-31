@@ -1,28 +1,31 @@
-# Python Revision 1
-## Mathematical operations  
-/ + - % // %
-1. calculate the hypotenuse of a right angle triangle with sides 6 and 7 cm
-1. what does 
-```python
-print(17//5)
-```
-get you and why?  
+#a=7
+#print(a)
 
-3. Print all numbers below 75 dividable by 7
-1. Now do it without using modular division
+#for i in range (11):
+#	a=a+7
+#	print(a)
+#a=0	
+#while (a<75):
+#	if a%7==0:
+#		print(a)
+#	a=a+1
+	
+#for i in range (76):
+#	if a%7==0:
+#		print(a)
+#	a=a+1
 
-## Input /output
-5. Ask user for a number and a name  
-    Now print the name with as many spaces between the letters  
-    Also print the name as may times as the number
-5. Ask user for a name and print name one letter at a time (separate lines)  
-	Now print the letters diagonally across the page one letter at a time (separate lines)
-6. Figure out how to print this pattern below with and without using a loop (its just a formatting trick)  
-```
-     *
-    ***
-   *****
-  *******
- *********
-```
-![geek joke](http://i.imgur.com/KGrV41o.png)
+a=int(input("enter a number"))
+b=input("enter a letter")
+c=b*a
+print(c)
+
+d="anastasia"
+e=""
+for i in range(len(d)):
+	e=e+d[i]+" "*i
+print(e)	
+	
+f=[1,3,5,7,9]
+for i in f:
+	print("*"*i)
