@@ -17,12 +17,25 @@ get you and why?
     Also print the name as may times as the number
 5. Ask user for a name and print name one letter at a time (separate lines)  
 	Now print the letters diagonally across the page one letter at a time (separate lines)
-6. Figure out how to print this pattern below with and without using a loop (its just a formatting trick)  
+6. Figure out how to print this pattern below with and without using a loop (its just a formatting trick)
+b="\t"\
+d=""
+a= input("enter a name")
+for i in range (len(a)):
+	print(b+i,a[i])
+for i in range(len(a)):
+	print(d+i,a[i])
+c="\n"
+for i in a:
+	c=c+i+" "len(a)
+print(c)
 ```
      *
     ***
    *****
   *******
  *********
+ 
+ 
 ```
 ![geek joke](http://i.imgur.com/KGrV41o.png)
