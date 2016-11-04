@@ -24,5 +24,13 @@ get you and why?
    *****
   *******
  *********
-```
+print("      *")
+print("     ***")
+print("    *****")
+print("   *******")
+
+
+
+
+
 ![geek joke](http://i.imgur.com/KGrV41o.png)
