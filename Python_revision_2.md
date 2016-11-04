@@ -15,3 +15,18 @@
 3. Replace all the vowels in a sentence with asterisks
 
 ![Smile](http://www.kdnuggets.com/images/cartoon-deep-learning-2nd-place-coffeemaker.jpg)
+
+
+
+
+name=input("Enter a name")
+letter=name[4]
+print (letter)
+letter=name[2]
+print (letter)
+letter=name[3]
+print (letter)
+letter=name[4]
+print (letter)
+reverse=name[::-1]
+print (reverse)
