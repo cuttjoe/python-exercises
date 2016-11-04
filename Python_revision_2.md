@@ -115,25 +115,30 @@ Lists:
 from collections import Counter
 import re
 print("Question 1 and 2:")
-list=input("Make a list:")
-lists=[]
-listDone=[]
-for i in range(len(list)):
-	lists.append(list[i])
+print("")
+input=input("Make a list:")
+list1=[]
+for i in range(len(input)):
+	list1.append(input[i])
 list2=[]
-for i in range(len(lists)):
-	if any([lists[i] in list2 for item in lists]):
-		counter = Counter(lists)
-		common=(counter[(lists[i])])
-		print(lists[i], "is common", (counter[(lists[i])]), "times.")
+for i in range(len(list1)):
+	if any([list1[i] in list2 for item in list1]):
+		counter = Counter(list1)
+		common=(counter[(list1[i])])
+		print(list1[i], "is common", (counter[(list1[i])]), "times.")
+		list2.remove((list1[i]))
 	else:
-		list2.append(lists[i])
+		list2.append(list1[i])
+print("Unique letters are:", (list2))
 vowels = ('a', 'e', 'i', 'o', 'u')
-listop=[]
+listvowel=[]
+print("")
 print("Question 3")
-for i in range(len(list)):
-	listop.append(list[i])
-print(re.sub("a|e|i|o|u", "xx", list))
+print("")
+for i in range(len(input)):
+	listvowel.append(input[i])
+print(re.sub("a|e|i|o|u", "*", input))
+
 
 
 
