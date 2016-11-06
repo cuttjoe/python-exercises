@@ -1,0 +1,26 @@
+1.Pyth:
+a=6
+b=7
+c=a*a+b*b
+d=c**0.5
+
+print (c)
+print ("The hypotenuse is",d)
+
+2.Modular division
+a=75
+b=7
+c=(a//b)
+print (c)
+d=a%b
+print (d)
+
+3.
+a=int(input("give me an number"))
+b=(input("give me a name"))
+listc=list()
+for i in range (0,a):
+	print(b)
+print(list(b))
+
+
