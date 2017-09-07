@@ -7,6 +7,8 @@
 1. ask the user for two words and save them as strings. Now print as one string
 2. Ask the user to enter a word and write a procedure to count all the letter a's
 3. Modify the procedure to count all the vowels in the word
+4. Create a passsword generator using a random combination of letters numbers and symbols
+5. 
 
 ## Lists
 1. use lists to find all the unique letters in a sentence
