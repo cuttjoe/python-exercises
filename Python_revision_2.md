@@ -8,7 +8,8 @@
 2. Ask the user to enter a word and write a procedure to count all the letter a's
 3. Modify the procedure to count all the vowels in the word
 4. Create a passsword generator using a random combination of letters numbers and symbols
-5. 
+5. Create a user login name creator. Ask user for name, and surname; use the first 4 letters of the name and first 3 letters  
+of the surname plus dm2017 to create a new username. Print username out.
 
 ## Lists
 1. use lists to find all the unique letters in a sentence
