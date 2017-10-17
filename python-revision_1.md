@@ -26,3 +26,38 @@ get you and why?
  *********
 ```
 ![geek joke](http://i.imgur.com/KGrV41o.png)
+
+PYTHON REVISION 1
+
+
+a=6
+b=7
+c=a*a+b*b
+print (c)
+d=(c ** 0.5)
+print (d)
+
+
+a=17
+b=5
+c=a//b
+print(c)
+
+
+for i in range(1,76):
+	if i%7 == 0:
+		print(i)
+
+
+
+name=input("Enter a name")
+name2=""
+number=int(input("Enter a number"))
+for i in name:
+	name2=name2+i+number*" "
+print(name2)
+
+name=input("Enter a name")
+for i in range(3):
+	print("\t"*i+name[i])
+
