@@ -20,3 +20,18 @@ of the surname plus dm2017 to create a new username. Print username out.
 
 
 ![Smile](http://www.kdnuggets.com/images/cartoon-deep-learning-2nd-place-coffeemaker.jpg)
+
+
+
+
+name=input("Enter a name")
+letter=name[4]
+print (letter)
+letter=name[2]
+print (letter)
+letter=name[3]
+print (letter)
+letter=name[4]
+print (letter)
+reverse=name[::-1]
+print (reverse)
