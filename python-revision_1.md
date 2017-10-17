@@ -26,3 +26,11 @@ get you and why?
  *********
 ```
 ![geek joke](http://i.imgur.com/KGrV41o.png)
+
+1.https://repl.it/EC3x/0
+2. You get 3, which is how many times 5 goes into 17
+3.https://repl.it/EOb6/0
+1.https://repl.it/EObh
+5.
+5.https://repl.it/EObm
+6.
